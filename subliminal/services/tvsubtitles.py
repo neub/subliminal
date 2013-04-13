@@ -30,7 +30,7 @@ import re
 logger = logging.getLogger(__name__)
 
 
-class TVsubtitles(ServiceBase):
+class TvSubtitles(ServiceBase):
     server_url = 'http://www.tvsubtitles.net'
     api_based = False
     languages = language_set(['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es', 'fi', 'fr', 'hu',
@@ -138,4 +138,4 @@ class TVsubtitles(ServiceBase):
         return subtitle
 
 
-Service = TVsubtitles
+Service = TvSubtitles
